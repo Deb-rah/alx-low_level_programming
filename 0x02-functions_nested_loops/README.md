@@ -1,1 +1,1 @@
-Learning C variables
+Learning C functions
