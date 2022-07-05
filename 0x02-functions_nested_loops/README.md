@@ -1,1 +1,1 @@
-Learning C functions
+Learning C programming
