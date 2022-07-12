@@ -4,15 +4,14 @@
 /**
  * _strlen ->  a function that returns the length of a string
  * @s: string pointer to pased to this function
- * Return: returns length of the string
+ * Return: void
  */
 int _strlen(char *s)
 {
-	int len;
+	int i = 0;
 
-	for (; *s != '\0'; s++)
-	{
-		len += 1;
-	}
-	return (len);
+	while (s[i])
+		i++;
+	
+	return (i);
 }
